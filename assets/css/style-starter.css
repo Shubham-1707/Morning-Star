@@ -15099,7 +15099,7 @@ header.nav-fixed {
 }
 
 .w3l-main-slider .banner-view {
-  background: url(http://www.morningstarschoolgwalior.org/images/2.jpg) no-repeat center;
+  background: url("assets/images/1.jpg") no-repeat center;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -15110,17 +15110,17 @@ header.nav-fixed {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(http://www.morningstarschoolgwalior.org/images/2.jpg) no-repeat center;
+  background: url("assets/images/2.jpg") no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(http://www.morningstarschoolgwalior.org/images/2.jpg) no-repeat center;
+  background: url("assets/images/015.jpg") no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-  background: url(http://www.morningstarschoolgwalior.org/images/2.jpg) no-repeat center;
+  background: url("assets/images/016.jpg") no-repeat center;
   background-size: cover;
 }
 
