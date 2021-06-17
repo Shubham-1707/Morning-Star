@@ -15115,12 +15115,12 @@ header.nav-fixed {
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(assetsimages/015.jpg) no-repeat center;
+  background: url("assetsimages/015.jpg") no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-  background: url(assetsimages/7.jpg) no-repeat center;
+  background: url("assetsimages/7.jpg") no-repeat center;
   background-size: cover;
 }
 
