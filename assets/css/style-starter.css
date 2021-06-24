@@ -15102,7 +15102,7 @@ header.nav-fixed {
   background: url(assets/images/1.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
-  position: relative;
+  position: absolute;
   z-index: 0;
   display: grid;
   align-items: center;
