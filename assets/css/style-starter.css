@@ -15101,7 +15101,7 @@ header.nav-fixed {
 .w3l-main-slider .banner-view {
   background: url("assets/images/1.jpg") no-repeat center;
   background-size: cover;
-  min-height: 50vh;
+  min-height: 100vh;
   position: relative;
   z-index: 0;
   display: grid;
