@@ -8326,12 +8326,16 @@ button.bg-dark:focus {
 }
 
 .fixed-top {
+
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
+
 }
+@media (max-width: 580px)
+{.fixed-top{margin-top: 25px;}}
 
 .fixed-bottom {
   position: fixed;
@@ -14708,6 +14712,7 @@ nav ul li a:hover {
 .navbar-expand-lg .search-bar {
   display: flex;
   flex: 1;
+  justify-content: center;
   max-width: 800px;
   width: 400px;
   margin: 0 auto;
@@ -14716,13 +14721,11 @@ nav ul li a:hover {
 .navbar-expand-lg nav .search-bar .search {
   display: flex;
   align-items: center;
-  flex: 1;
   position: relative;
 }
 
 .navbar-expand-lg nav .search-bar .search .search__input {
   display: flex;
-  flex: 1;
   padding: 10px 50px 10px 20px;
   height: 48px;
   font-size: 17px;
@@ -14735,6 +14738,7 @@ nav ul li a:hover {
   background: var(--bg-grey);
   outline: 0;
   border: 1px solid var(--border-color);
+  width: 300px;
 }
 
 .navbar-expand-lg nav .search-bar .search .search__icon {
@@ -14783,6 +14787,8 @@ nav ul li a:hover {
     max-width: 800px;
     width: 100%;
     margin: 20px auto;
+    display:flex ;
+    justify-content: center;
   }
 }
 @media (max-width: 415px) {
@@ -15038,11 +15044,9 @@ header.nav-fixed {
 
 .w3l-banner-grids {
   z-index: 10;
-  position: absolute;
+ 
   width: 80%;
-  left: 0;
-  right: 0;
-  bottom: 40px;
+ 
   margin: 3em auto 0;
 }
 
